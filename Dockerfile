@@ -6,9 +6,10 @@ RUN mkdir /app
 WORKDIR /app
 ADD hawkeye /app
 
-RUN npm install
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-RUN npm install pm2 -g
+RUN cnpm install \
+    && cnpm install pm2 -g
 
 EXPOSE 80 8000 3002
 ENTRYPOINT NODE_ENV=production pm2 start hawkeye.js; \
