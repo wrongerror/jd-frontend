@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>金鼎数信</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css"
+          rel="stylesheet">
+    <link href="/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet">
+    <link href="/part/base.css" rel="stylesheet">
+    <link href="/home/index.css" rel="stylesheet">
+</head>
+<body>
+<div id="la-loading-div">
+    <div class="la-ball-scale-pulse la-2x">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div id="home-div">
+    <div>
+        <div id="title-bar-div">
+            <div id="logo"><img src="/home/logo.png"></div>
+            <div id="nav-div"><span class="nav-button" id="navb-feature">平台功能</span><span class="nav-button"
+                                                                                          id="navb-partner">合作伙伴</span><span
+                        class="nav-button" id="navb-background">公司背景</span></div>
+            <div id="nav-unsigned"><a id="btn-to-signin">登录</a><a id="btn-to-signup">注册</a></div>
+            <div id="nav-signed" style="display:none">
+                <div class="animated fadeOutRight hide" id="title-menu">
+                    <span>个人设置</span><span>我的报告</span><span>我的消息</span>
+                    <button>退出登录</button>
+                    <div class="arrow"></div>
+                </div>
+                <div id="avatar-div">
+                    <div><img src="/images/default-avatar.jpg"></div>
+                    <div><span id="name">郭宇</span></div>
+                    <div><i class="zmdi zmdi-chevron-down"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="banner-div">
+            <div id="banner-content">
+                <div id="content"><h1>大数据金融行业应用解决方案</h1>
+                    <h3>金融大数据、定制化建模、企业个人360°报告</h3></div>
+                <div id="login-area">
+                    <div class="fg-line"><span>账号：</span><input id="account" type="text"></div>
+                    <div class="fg-line"><span>密码：</span><input id="password" type="password"></div>
+                    <div><label class="checkbox checkbox-inline f-r">记住密码<input id="is-remember-password"
+                                                                                type="checkbox"
+                                                                                value="is-remember-password"><i
+                                    class="input-helper"></i></label><a>忘记密码 <i class="fa fa-question-circle-o"></i></a>
+                    </div>
+                    <button class="btn">登录</button>
+                </div>
+            </div>
+        </div>
+        <div id="data-div">
+            <div class="data-icon">
+                <div class="icon"><span class="icon1"></span></div>
+                <div class="data">50,000.00</div>
+                <div class="title">个人信息处理分析</div>
+            </div>
+            <div class="dot-group"><span></span><span></span><span></span></div>
+            <div class="data-icon active">
+                <div class="icon"><span class="icon2 "></span></div>
+                <div class="data">38,256.00</div>
+                <div class="title">企业数据信息处理分析</div>
+            </div>
+            <div class="dot-group"><span></span><span></span><span></span></div>
+            <div class="data-icon">
+                <div class="icon"><span class="icon3"></span></div>
+                <div class="data">64,256.00</div>
+                <div class="title">信息搜索</div>
+            </div>
+            <div class="dot-group"><span></span><span></span><span></span></div>
+        </div>
+        <div id="feature-div">
+            <div class="rows"><img class="left" src="/home/p1.jpg">
+                <div class="right rich-text primary">
+                    <div><h3>【平台功能】</h3>
+                        <p>——</p>
+                        <p>大数据征信数据源</p>
+                        <p>基于"统一征信数据接入"的理念，平台已率先对接众多征信机构如百<br>融、阿里等广泛、多样化的外部数据源，采用多元</p></div>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="left rich-text">
+                    <div><h3>【平台功能】</h3>
+                        <p>——</p>
+                        <p>大数据风控模型</p>
+                        <p>借鉴Experian在零售信贷风险计量与数据分析行业的领先技术和最<br>佳实践经验，由经验丰富的分析团队与客户团队对现有业务进行处<br>理分析对申请、行为、催收等评分卡的设计、开发、验证，基于评<br>分卡进行预审批、授信审批、申请反欺诈、差异化定价、额度调<br>整、风险预警、催收路径等信贷流程策略的设计优化。
+                        </p></div>
+                </div>
+                <img class="right" src="/home/p2.jpg"></div>
+            <div class="rows"><img class="left" src="/home/p3.jpg">
+                <div class="right rich-text dark">
+                    <div><h3>【平台功能】</h3>
+                        <p>——</p>
+                        <p>鹰眼系统：于企业提供信用查询、风险识别市场监控、舆情监控等<br>多维度报告。</p>
+                        <p>深瞳系统：以个人为维度提供反欺诈、信用报告等，用户个人消费<br>征信的应用。</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="partner-div">
+            <div>
+                <div class="primary">【合作伙伴】</div>
+                <p>——</p></div>
+            <div id="brands">
+                <div id="arrow-left"><img src="/home/al.png"></div>
+                <div id="partner-content"><a class="partner-item" href="http://www.cib.com.cn/cn/index.html"><span
+                                class="pn0"></span></a><a class="partner-item"
+                                                          href="http://www.ccb.com/cn/home/index.html"><span
+                                class="pn1"></span></a><a class="partner-item"
+                                                          href="http://www.hxb.com.cn/home/cn/"><span
+                                class="pn2"></span></a><a class="partner-item" href="http://www.abchina.com/cn/"><span
+                                class="pn3"></span></a><a class="partner-item" href="http://www.boc.cn/"><span
+                                class="pn4"></span></a><br><a class="partner-item"
+                                                              href="http://www.icbc.com.cn/icbc/"><span
+                                class="pn5"></span></a><a class="partner-item"
+                                                          href="http://www.bocd.com.cn/icms/static/cdbank/zh/o6hxyopm/vl4b9bvc/vl4b9bvc.html"><span
+                                class="pn6"></span></a><a class="partner-item" href="http://www.yaccb.cn"><span
+                                class="pn7"></span></a><a class="partner-item" href="http://www.jkxd.cn"><span
+                                class="pn8"></span></a><a class="partner-item" href="http://www.huaxi100.com"><span
+                                class="pn9"></span></a><br></div>
+                <div id="arrow-right"><img src="/home/ar.png"></div>
+            </div>
+        </div>
+        <div id="background-div">
+            <div class="rich-text">
+                <div><h3>【公司背景】</h3>
+                    <p>——</p>
+                    <p>四川金鼎财富信息技术有限公司由四川省能源投资平台旗下四川金<br>鼎产融控股公司联合四川省知名报业集团及其他法人股东共同出资<br>成立于，注册资本5000万元，于2014年1月30日正式运营。主要股<br>东有四川金鼎产融控股有限公司、四川省能源投资集团有限责任公<br>司和华西都市网。
+                    </p></div>
+            </div>
+            <div><img src="/home/structure.png"></div>
+        </div>
+        <div id="footer-div">
+            <button class="btn" id="backtop"><i class="fa fa-angle-up"></i></button>
+            <div id="fname">四川金鼎财富信息技术有限公司<span>公司地址：成都市高新区交子北一路88号枫丹国际四川金鼎金融大厦14楼</span></div>
+            <div id="fcr">Copyright ⓒ 2014-2016四川金鼎财富信息技术有限公司版权所有</div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js"></script>
+<script src="/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+<script src="/home/index.js"></script>
+<script>$(window).load(function () {
+        setTimeout(function () {
+            $('#la-loading-div').remove();
+        }, 200);
+    });</script>
+</html>
