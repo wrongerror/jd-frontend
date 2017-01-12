@@ -20,7 +20,7 @@ docker build -t jd-frontend .
 
 Run the jd-backend image
 ```bash
-docker run -it --name jd-frontend -p 80:3002 -d jd-frontend
+docker run -it --rm --name jd-frontend -p 80:3002 -d jd-frontend
 ```
 
 # Shell Access
